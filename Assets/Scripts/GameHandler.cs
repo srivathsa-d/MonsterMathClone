@@ -46,6 +46,7 @@ public class GameHandler : MonoBehaviour {
 
 		timeManager = this.GetComponent<TimeScript> ();
 		healthBar = GameObject.Find ("HealthBar").GetComponent<Slider>();
+		healthBar.interactable = false;
 		arrangeButtons ();
 	}
 	
